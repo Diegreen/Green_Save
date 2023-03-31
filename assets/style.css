@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    display: flex;
+    font-family: 'Oswald', sans-serif;
+}
+
+img {
+    width: 55%;
+    height: 100vh;
+}
+
+main {
+    height: 100vh;
+    width: 45%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12%;
+}
+
+main > h1 {
+    color: green;
+    font-size: 50px;
+
+} 
+
+form fieldset  {
+   border: 2px solid green;
+   border-radius: 8px;
+   padding: 10px;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   padding: 80px ;
+}
+
+form fieldset legend {
+    font-size: 20px;
+}
+
+form fieldset section {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+form fieldset section input {
+    padding: 10px 50px 10px 0px;
+    border: transparent;
+}
+
+form fieldset section input:hover {
+  border-left: 2px solid rgb(55, 136, 57);
+
+}
+
+
+form fieldset .check_form {
+display: flex;
+flex-direction: row-reverse;
+gap: 10px;
+justify-content: flex-end;
+}
+
+form fieldset .data_form {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+
+
