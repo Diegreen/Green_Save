@@ -29,7 +29,7 @@ main {
 main > h1 {
     color: green;
     font-size: 50px;
-
+    transition: 0.5s ease-out;
 } 
 
 form fieldset  {
@@ -59,9 +59,7 @@ form fieldset section input {
 
 form fieldset section input:hover {
   border-left: 2px solid rgb(55, 136, 57);
-
 }
-
 
 form fieldset .check_form {
 display: flex;
@@ -74,6 +72,15 @@ form fieldset .data_form {
     display: flex;
     flex-direction: column;
     gap: 3px;
+}
+form fieldset .button_form #buttonform {
+    padding: 5px 5px;
+    border-radius: 5px;
+    border: 1px dashed green;
+}
+
+form fieldset .button_form #buttonform:hover {
+    background-color: green;
 }
 
 
